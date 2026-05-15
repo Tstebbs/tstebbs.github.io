@@ -74,6 +74,34 @@
 							<section class="posts">
 								<article>
 									<header>
+										<span class="date">May 06, 2026</span>
+										<h2>
+											<a href="#">
+												Honours Project<br />
+												Procedural Sword Generation
+											</a>
+										</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/sword.png" alt="" /></a>
+									<p>
+										My honours project explores procedural generation for creating gameplay objects. I developed an application to <br />
+										aid developers in creating sword models for their games. The swords are built from four parts: two premodelled <br />
+										components and two generated parts through procedural mesh generation.<br />
+										The mesh generation is done by taking in paramters via user input(sliders)<br/>
+										and creating an array of vertexs split into diamond shaped cross sections that change over the length of the blade.<br />
+										z values are then calculated for each cross section and added to the vertex array.<br />
+										Indices join the points on each cross section via triangle to create faces.<br />
+										UVs and normals are calculated and added to an array before godots arrayMesh takes the 4 arrays and generates a mesh instance<br />
+										This is then emulated for the handle but instead using circular cross sections that radius changes based on a sine curve.<br />
+										All before the final 2 parts are selected based on the sword parameters selected
+									
+									</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Demo Video(TBD)</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
 										<span class="date">May 30, 2025</span>
 										<h2><a href="https://final-prism-interactive.itch.io/still-forgotten/devlog/934766/version-11-gold-master">Still Forgotten-3rd Year Professional Project</a></h2>
 									</header>
@@ -89,28 +117,6 @@
 										<li><a href="https://final-prism-interactive.itch.io/still-forgotten/devlog/934766/version-11-gold-master" class="button large">Find Here</a></li>
 									</ul>
 
-								</article>
-								<article>
-									<header>
-										<span class="date">May 06, 2026</span>
-										<h2>
-											<a href="#">
-												Honours Project<br />
-												Procedural Sword Generation
-											</a>
-										</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/sword.png" alt="" /></a>
-									<p>
-
-										My honours project explores procedural generation for creating gameplay objects. I developed an application to <br />
-										aid developers in creating sword models for their games. The swords are built from four parts: two premodelled <br />
-										components and two generated parts through procedural mesh generation.<br />
-										Further Explanation to be added Shortly!
-									</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Demo Video(TBD)</a></li>
-									</ul>
 								</article>
 								<article>
 									<header>
